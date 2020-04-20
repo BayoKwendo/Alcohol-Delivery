@@ -16,5 +16,5 @@ if($message != ''){
 	$sql = "INSERT INTO ticket_details (ticket_id, user_id, description) VALUES ($ticket_id, $user_id, '$message')";
 	$con->query($sql);
 }
-echo '<script> window.location="https://apondiform.com/DaPlace/view-ticket.php?id=$ticket_id";</script>';
+echo '<script> window.location="https://cancerchronic.org/daplace/view-ticket.php?id=$ticket_id";</script>';
 ?>

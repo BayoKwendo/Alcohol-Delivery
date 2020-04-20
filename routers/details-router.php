@@ -13,6 +13,6 @@ $sql = "UPDATE users SET name = '$name', username = '$username', password='$pass
 if($con->query($sql)==true){
 	$_SESSION['name'] = $name;
 }
-echo  '<script> window.location="https://apondiform.com/DaPlace/details.php";</script>';
+echo  '<script> window.location="https://cancerchronic.org/daplace/details.php";</script>';
 
 ?>

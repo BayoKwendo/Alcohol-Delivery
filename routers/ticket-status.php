@@ -7,5 +7,5 @@ $sql = "UPDATE tickets SET status = '$status' WHERE id = $ticket_id;";
 $con->query($sql);
 
 
-  echo '<script> window.location="https://apondiform.com/DaPlace/view-ticket.php?id=$ticket_id";</script>';
+  echo '<script> window.location="https://cancerchronic.org/daplace/view-ticket.php?id=$ticket_id";</script>';
   ?>

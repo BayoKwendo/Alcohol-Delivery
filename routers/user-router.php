@@ -27,5 +27,5 @@ include '../includes/connect.php';
 			}
 		}			
 	}
-	  echo '<script> window.location="https://apondiform.com/DaPlace//users.php";</script>';
+	  echo '<script> window.location="https://cancerchronic.org/daplace/users.php";</script>';
 ?>

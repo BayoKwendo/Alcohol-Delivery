@@ -27,7 +27,7 @@ $total = $_POST['total'];
 		$sql = "UPDATE wallet_details SET balance = $balance WHERE wallet_id = $wallet_id;";
 		$con->query($sql) === TRUE;
 		}
-			echo  '<script> window.location="https://apondiform.com/DaPlace/orders.php";</script>';
+			echo  '<script> window.location="https://cancerchronic.org/daplace/orders.php";</script>';
 		
 	}
 

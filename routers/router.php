@@ -2,8 +2,8 @@
 include '../includes/connect.php';
 $success=false;
 
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username = htmlspecialchars($_POST['username']);
+$password = md5(htmlspecialchars($_POST['password']));
 
 $result = mysqli_query($con, "SELECT * FROM users WHERE username='$username' AND password='$password' AND role='Administrator' AND not deleted;");
 while($row = mysqli_fetch_array($result))
@@ -22,7 +22,7 @@ if($success == true)
 	$_SESSION['role'] = $role;
 	$_SESSION['name'] = $name;
 		echo "string";
-	echo  '<script> window.location="https://apondiform.com/DaPlace/admin-page.php";</script>';
+	echo  '<script> window.location="https://cancerchronic.org/daplace/admin-page.php";</script>';
 	
 }
 else
@@ -42,7 +42,7 @@ else
 		$_SESSION['user_id'] = $user_id;
 		$_SESSION['role'] = $role;
 		$_SESSION['name'] = $name;
-			echo  '<script> window.location="https://apondiform.com/DaPlace/index.php";</script>';			
+			echo  '<script> window.location="https://cancerchronic.org/daplace/index.php";</script>';			
 	}
 	else
 	{
@@ -51,7 +51,7 @@ else
 			echo "string";
 			# code...
 		};
-  echo '<script> window.location="https://apondiform.com/DaPlace/login.php?action=fail";</script>';
+  echo '<script> window.location="https://cancerchronic.org/daplace/login.php?action=fail";</script>';
 	}
 }
 ?>

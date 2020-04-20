@@ -11,6 +11,6 @@ $con->query($sql);
 
 
 
-echo  '<script> window.location="https://apondiform.com/DaPlace/admin-page.php";</script>';
+echo  '<script> window.location="https://cancerchronic.org/daplace/admin-page.php";</script>';
 
 ?>

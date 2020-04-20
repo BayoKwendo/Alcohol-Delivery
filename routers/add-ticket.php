@@ -14,10 +14,10 @@ if($type != ''){
 		
 	}
 
-	echo  '<script> window.location="https://apondiform.com/DaPlace/tickets.php?action=success";</script>';
+	echo  '<script> window.location="https://cancerchronic.org/daplace/tickets.php?action=success";</script>';
 
 }
 else{
-	echo  '<script> window.location="https://apondiform.com/DaPlace/tickets.php?action=fail";</script>';
+	echo  '<script> window.location="https://cancerchronic.org/daplace/tickets.php?action=fail";</script>';
 }
 ?>
